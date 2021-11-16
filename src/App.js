@@ -45,7 +45,7 @@ function App() {
       incrementBreakLength={incrementBreakLength}
       decrementBreakLength={decrementBreakLength}
        />
-      <TimeLeft sessionLength={sessionLength} />
+      <TimeLeft breakLength={breakLength} sessionLength={sessionLength} />
       <Session
       sessionLength={sessionLength}
       decrementSessionLength={decrementSessionLength}
